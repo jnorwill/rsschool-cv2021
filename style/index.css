@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: #9999ff;
+    margin: 0 auto;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+    color: white;
+    padding: 50px 0 50px;
+    margin: 0 auto;
+}
+
+.header__avater {
+    border-radius: 50%;
+    border: 3px solid white;
+    height: 500px;
+}
+
+.header__name {
+    border-bottom: white solid 3px;
+    margin: 0;
+    font-size: 80px;
+    padding: 30px 0 50px;
+}
+
+.contacts__list {
+    list-style-type: none;
+    padding: 0;
+    margin: 50px 0;
+    font-size: 40px;
+    line-height: 200%;
+}
+
+.contacts__link {
+    color: white;
+    text-decoration: none;
+}
+
+.main {
+    max-width: 1200px;
+    margin: 100px auto;
+    font-size: 30px;
+}
+
+.title {
+    margin: 0;
+}
+
+.paragraph {
+    margin: 0;
+    margin-top: 20px;
+}
+
+.personal-information {
+    text-align: center;
+}
+
+.experience-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+
+.education {
+    text-align: center;
+    background-color: #9aee77;
+    border-radius: 20px;
+    padding: 20px 40px;
+    margin-bottom: 20px;
+}
+
+.english {
+    text-align: center;
+    background-color: #9aee77;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.skills {
+    background-color: #9aee77;
+    border-radius: 20px;
+    flex-grow: 1;
+    margin-left: 20px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills__list {
+    margin: 20px 0 0;
+    padding: 0;
+}
+
+.code {
+    font-size: 30px;
+}
+
+.code__title {
+    text-align: center;
+}
+
+.code__figure {
+    margin: 0;
+}
+
+.fooret {
+    background-color: #9999ff;
+}
+
+.fooret__container {
+    max-width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    color: white;
+    font-size: 30px;
+    line-height: 200%;
+}
+
+.fooret__container ul {
+    list-style-type: none;
+}
+
+.fooret__link {
+    color: white;
+    text-decoration: none;
+}
