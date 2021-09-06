@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style/index.css">
+        <title>Rsschool-cv-html</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="header__container">
+                <img class="header__avater"
+                    src="./style/photo_2021-03-02_17-47-43.jpg" alt="avatar">
+                <div>
+                    <h1 class="header__name">Yuliya Kukharchyk</h1>
+                    <ul class="contacts__list">
+                        <li>Phone: <a class="contacts__link"
+                                href="tel:80336244777">80336244777</a></li>
+                        <li>Email: <a class="contacts__link"
+                                href="mailto:julianorwill@gmail.com">julianorwill@gmail.com</a></li>
+                        <li>Instagram: <a class="contacts__link"
+                                href="https://www.instagram.com/julia__candles/?hl=ru">julia__candles</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+
+            <section class="personal-information">
+                <h2 class="personal-information__title title">Shortly about
+                    myself</h2>
+                <p class="personal-information__paragraph paragraph">I am 18
+                    years old, I
+                    wish to find a type of activity that will
+                    suit my liking. I am rapidly developing in different areas,
+                    learning new things. I have communicative qualities, I can
+                    win
+                    over the interlocutor. I have a lot of creativity. I have no
+                    work experience.
+                </p>
+            </section>
+            <div class="experience-container">
+                <div>
+                    <section class="education">
+                        <h2 class="education__title title">Education</h2>
+                        <p class="education__paragraph paragraph">Shchuchin
+                            State
+                            Gymnasium(2012-2019)</p>
+                    </section>
+                    <section class="english">
+                        <h2 class="english__title title">Level of English</h2>
+                        <p class="english__paragraph paragraph">A1</p>
+                    </section>
+                </div>
+                <section class="skills">
+                    <h2 class="skills__title title">Skills</h2>
+                    <ul class="skills__list">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Git</li>
+                    </ul>
+                </section>
+            </div>
+            <section class="code">
+                <h2 class="code__title title">Sample code</h2>
+                <figure class="code__figure">
+                    <pre>
+function warnTheSheep(queue) {
+    let result = queue.findIndex(function(item, index, array){
+        return item =='wolf'
+    })
+    if (result + 1 == queue.length) {
+        return 'Pls go away and stop eating my sheep'
+    } else {
+        let N = ( queue.length - (result + 1) )
+        return `Oi! Sheep number ${N}! You are about to be eaten by a wolf!`
+    }
+}
+                    </pre>
+                </figure>
+            </section>
+        </main>
+        <footer class="fooret">
+            <div class="fooret__container">
+                <ul>
+                    <li>Phone: <a class="fooret__link" href="tel:80336244777">80336244777</a></li>
+                    <li>Email: <a class="fooret__link"
+                            href="mailto:julianorwill@gmail.com">julianorwill@gmail.com</a></li>
+                    <li>Instagram: <a class="fooret__link"
+                            href="https://www.instagram.com/julia__candles/?hl=ru">julia__candles</a></li>
+                </ul>
+                <ul>
+                    <li><a class="fooret__link"
+                            href="https://github.com/jnorwill">github</a></li>
+                            <li>2021</li>
+                    <li><a class="fooret__link" href="https://rs.school/js/"><img
+                                src="./style/rs_school_js.svg" alt="rss logo"></a></li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>
