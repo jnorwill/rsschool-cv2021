@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/index.css">
+    <title>Rsschool-cv-html</title>
+    <link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/agate.min.css">
+    <script
+      src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </head>
+  <body>
+    <header class="header">
+      <h1>Yuliya Kukharchyk</h1>
+      <nav class="navigation">
+        <ul class="navigation-list">
+          <li><a class="navigation-list__link" href="#skills">Skills</a></li>
+          <li><a class="navigation-list__link" href="#projects">Projects</a></li>
+          <li><a class="navigation-list__link" href="#code">Code
+              example</a></li>
+          <li><a class="navigation-list__link" href="#video">Video</a></li>
+          <li><a class="navigation-list__link" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="personal-information">
+        <figure>
+          <h2 class="personal-information__name">Yuliya Kukharchyk</h2>
+          <img class="personal-information__avatar"
+            src="./style/photo_2021-03-02_17-47-43.jpg"
+            alt="avatar">
+          <figcaption class="personal-information__figcaption">Yuliya Kukharchyk</figcaption>
+        </figure>
+        <div class="personal-information__text">
+          <h2 class="title">Shortly about
+            myself</h2>
+          <p>I am 19
+            years old, I
+            wish to find a type of activity that will
+            suit my liking. I am rapidly developing in different
+            areas,
+            learning new things. I have communicative qualities, I
+            can
+            win
+            over the interlocutor. I have a lot of creativity. I
+            have no
+            work experience.
+          </p>
+          <ul class="contacts">
+            <li>Phone: <a class="contacts__link"
+                href="tel:80336244777">80336244777</a></li>
+            <li>Email: <a class="contacts__link"
+                href="mailto:julianorwill@gmail.com">julianorwill@gmail.com</a></li>
+            <li>Telegram: <a class="contacts__link" 
+              href="tg://resolve?domain=j_norwill">@j_norwill</a></li>
+          </ul>
+        </div>
+      </section>
+      <div class="experience-container" id="skills">
+        <div>
+          <section class="education">
+            <h2 class="title">Education</h2>
+            <p class="paragraph">Shchuchin State
+              Gymnasium(2012-2019)</p>
+          </section>
+          <section class="english">
+            <h2 class="title">Level of English</h2>
+            <p class="paragraph">A2</p>
+          </section>
+        </div>
+        <section class="skills">
+          <h2 class="skills__title title">Skills</h2>
+          <ul class="skills__list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Git</li>
+          </ul>
+        </section>
+      </div>
+      <section class="projects" id="projects">
+        <h2 class="projects__title title">Projects</h2>
+        <div class="zoo">
+          <h3 class="projects__text">Online Zoo</h3>
+          <p class="projects__text">HTML, CSS, JavaScript</p>
+          <a class="zoo__link projects__link" target="_blank"
+            href="https://rolling-scopes-school.github.io/jnorwill-JSFE2021Q1/online-zoo/pages/Landing/"></a>
+        </div>
+        <div class="photo-filter">
+          <h3 class="projects__text">Photo Filter</h3>
+          <p class="projects__text_light">HTML, CSS, JavaScript</p>
+          <a class="photo-filter__link projects__link" target="_blank"
+            href="https://rolling-scopes-school.github.io/jnorwill-JSFE2021Q1/photo-filter/"></a>
+        </div>
+      </section>
+      <section class="code">
+        <h2 class="code__title title">Sample code</h2>
+        <pre><code class="js style-monokai-sublime">
+function warnTheSheep(queue) {
+    let result = queue.findIndex(function(item, index, array){
+        return item =='wolf'
+    })
+    if (result + 1 == queue.length) {
+        return 'Pls go away and stop eating my sheep'
+    } else {
+        let N = ( queue.length - (result + 1) )
+        return `Oi! Sheep number ${N}! You are about to be eaten by a wolf!`
+    }
+}
+                </code></pre>
+      </section>
+    </main>
+    <footer class="fooret" id="video">
+      <div class="fooret__container">
+        <ul class="contacts footer__contacts">
+          <li>Phone: <a class="contacts__link"
+              href="tel:80336244777">80336244777</a></li>
+          <li>Email: <a class="contacts__link"
+              href="mailto:julianorwill@gmail.com">julianorwill@gmail.com</a></li>
+              <li>Telegram: <a class="contacts__link" 
+                href="tg://resolve?domain=j_norwill">@j_norwill</a></li>
+        </ul>
+        <ul>
+          <li><a class="fooret__link"
+              href="https://github.com/jnorwill">github</a>li>
+          <li>2021</li>
+          <li><a href="https://rs.school/js/"><img
+                src="./style/rs_school_js.svg" alt="rss logo"></a></li>
+        </ul>
+        <iframe class="video" height="180"
+          src="https://www.youtube.com/embed/jtVO8hKAWTE"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write;
+          encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+    </footer>
+  </body>
+</html>
